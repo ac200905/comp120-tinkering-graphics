@@ -1,0 +1,10 @@
+Functional Coherence - The code works properly without any obvious errors.
+Sophistication - the code could be less "duplicated", every unit reskinning has the same loop for "y" and "x".
+Maintainability - Some of the comments are getting over 79 character limit. Also the code has obvious duplicates. 
+Some of the functions do not fit PEP-8. There are also no doc-strings.
+Creative Flair - The code is not quite creative, as the main work is duplicates (only colors are changed).
+Use of Version Control - On GitHub the work has been committed only once.
+
+I suggest instead of having multiple functions, have one and pass a parameter of colour, 
+it would improve readability. If a new image was decided it would not be able to handle it unless the sprites were the same size, 
+I would suggest having some constants.
